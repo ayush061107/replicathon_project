@@ -11,7 +11,7 @@ html, body {
     background-color: #E85A00;
     background: radial-gradient(circle,#FF9A1F,#E85A00);
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-family: 'Poppins', sans-serif;
 }
 #navigation {
@@ -52,6 +52,124 @@ html, body {
   position: absolute;
   width: 380px;
   z-index: 2; 
-  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35)); /* natural floating shadow */
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
   pointer-events: none;
+}
+
+.leftcontent {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 240px;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.leftcontent h2 {
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.leftcontent p {
+    font-size: 11px;
+    line-height: 1.5;
+    opacity: 0.85;
+}
+
+.rightcontent {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ffffff;
+}
+
+.colortitle {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.coloroptions, .size-options {
+    display: flex;
+    gap: 12px;
+}
+
+.colordot {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cyan {
+    background-color: #2ed1d8;
+}
+
+.orange {
+    background-color: #f26211;
+}
+
+.pink {
+    background-color: #e91e63;
+}
+
+.activecolor {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+}
+
+.sizedot {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.socials img {
+    filter: brightness(0) invert(1);
+    opacity: 0.85;
+}
+
+.centersubtitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+.subline {
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.5;
 }
