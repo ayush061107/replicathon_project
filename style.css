@@ -173,3 +173,7 @@ html, body {
     background-color: #ffffff;
     opacity: 0.5;
 }
+.sizeoptions {
+    display: flex;
+    gap: 12px;
+}
