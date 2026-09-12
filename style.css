@@ -5,6 +5,19 @@
 }
 
 html, body {
+    margin-top: 8px;
     height: 100%;
     width: 100%;
+    background-color: #E85A00;
+    background: radial-gradient(circle,#FF9A1F,#E85A00);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+#navigation {
+    word-spacing: 20px;
+    float: right;
+    margin-right:40px;
+    font-size: 20px;
+    color: #FFFFFF;
 }
