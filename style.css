@@ -11,19 +11,19 @@ html, body {
     background-color: #E85A00;
     background: radial-gradient(circle,#FF9A1F,#E85A00);
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-family: 'Poppins', sans-serif;
 }
 #navigation {
     word-spacing: 20px;
     float: right;
-    margin-right:40px;
+    margin-right: 40px;
     font-size: 20px;
     color: #FFFFFF;
 }
-.buttons{
-    word-spacing:normal;
-    background-color:#ffffff;
+.buttons {
+    word-spacing: normal;
+    background-color: #ffffff;
     border-radius: 20px; 
     color: #000000; 
     padding: 10px;
@@ -31,29 +31,29 @@ html, body {
     outline: none;
 }
 .container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
 }
 .bgtext {
-  font-family: 'Anton', Impact, sans-serif;
-  font-size: clamp(8rem, 50vw, 20rem);
-  font-weight: 900;
-  color: #ffffff;
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  user-select: none;
-  z-index: 1;
+    font-family: 'Anton', Impact, sans-serif;
+    font-size: clamp(8rem, 50vw, 20rem);
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    user-select: none;
+    z-index: 1;
 }
 .shoe {
-  position: absolute;
-  width: 380px;
-  z-index: 2; 
-  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
-  pointer-events: none;
+    position: absolute;
+    width: 380px;
+    z-index: 2; 
+    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
+    pointer-events: none;
 }
 
 .leftcontent {
@@ -97,7 +97,7 @@ html, body {
     opacity: 0.9;
 }
 
-.coloroptions, .size-options {
+.coloroptions, .sizeoptions {
     display: flex;
     gap: 12px;
 }
