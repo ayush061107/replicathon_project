@@ -21,3 +21,37 @@ html, body {
     font-size: 20px;
     color: #FFFFFF;
 }
+.buttons{
+    word-spacing:normal;
+    background-color:#ffffff;
+    border-radius: 20px; 
+    color: #000000; 
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  overflow: hidden;
+}
+.bgtext {
+  font-family: 'Anton', Impact, sans-serif;
+  font-size: clamp(8rem, 50vw, 20rem);
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  user-select: none;
+  z-index: 1;
+}
+.shoe {
+  position: absolute;
+  width: 380px;
+  z-index: 2; 
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35)); /* natural floating shadow */
+  pointer-events: none;
+}
